@@ -320,7 +320,10 @@ color: #202336;
   color: #FB8F1D;
   padding-left: 55%;
 }
-
+.SECT span::after{
+  content: url(./img/view.png);
+  margin-left: .5%;
+}
 .trending{
   display: flex;
   justify-content: space-between;
@@ -399,3 +402,95 @@ left: 1054px;
 top: 2933px;
   
 }
+/* Destinations */
+
+
+
+.DesMain{
+  width:90%;
+ margin-left: 13%;
+ 
+}
+.Featured{
+  display: flex;  
+}
+.Featured h1{
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
+.Featured h4{
+  font-size: 17px;
+  color: #FB8F1D;
+  padding-left: 50%;
+  margin-top: 2%;
+  font-family: 'Inter', sans-serif;
+}
+.Featured h4::after{
+ content: url(./img/view.png);
+
+}
+
+.photo{
+  width:83%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+.Raja{
+  background: url(./img/img1.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.text{
+  background-color: white;
+  margin-top: 110%;
+  width: 50%;
+  border-radius: 0px 6px 0px 0px;
+  padding:1% ;
+  font-family: 'Inter', sans-serif;
+}
+
+.Fan{
+  background: url(./img/img2.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.Vevey{
+  background: url(./img/img3.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+
+.Skadar{
+  background: url(./img/img4.png)center/ cover no-repeat;
+  border-radius: 10px;
+  height: 45.2vh;
+  width: 24%;
+}
+#scoarDes{
+  margin-left: 55%;
+}
+#plusDes{
+  position: absolute;
+  width: 20.05px;
+  height: 20px;
+  left: 114.61px;
+  top: 1824px;
+  transform: rotate(7.49deg);
+}
+
+#scoarDes2 {
+  position: absolute;
+  width: 19.96px;
+  height: 20px;
+  left: 834px;
+  top: 2200px;
+  
+}
+
