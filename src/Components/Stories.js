@@ -3,7 +3,7 @@ import Card from "./card"
 
 const Section2 = () => {
     return ( 
-        <section className='info_jazz'>
+        <section className='info_Stories'>
         <div id="cards">
         {DataPartner.map(singleData =>  <Card 
             descrption={singleData.descrption}
