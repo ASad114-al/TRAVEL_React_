@@ -24,8 +24,8 @@ function App() {
     <Header />
     
     <Switch>
-      <Route path="/" exact >
-        <Home />
+      <Route   path="/" exact >
+        < Home />
       </Route>
       <Route path="/Destinations" >
         <Destinations />
